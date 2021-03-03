@@ -3,7 +3,7 @@ import "./footerStyle.css";
 
 function Footer() {
     return(
-        <footer className="footer">Made by William Bryan</footer>
+        <footer className="footer">Made in React</footer>
     );
 }
 

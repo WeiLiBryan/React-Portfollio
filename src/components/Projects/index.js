@@ -3,6 +3,7 @@ import React from "react";
 
 function Projects() {
     return (
+        <div className="container">
         <div className="proj-content mx-grid">
             <h1 className="display-4">Projects</h1> <br />
 
@@ -57,6 +58,7 @@ function Projects() {
                     </a>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
