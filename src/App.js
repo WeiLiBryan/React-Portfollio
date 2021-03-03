@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import Nav from "./components/Nav";
 import Home from "./components/Home";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       {/* Navigation Bar */}
       <Nav />
 
@@ -20,8 +20,8 @@ function App() {
       </video>
 
       <Switch>
-        <Route exact path={[process.env.PUBLIC_URL + "/", process.env.PUBLIC_URL + "/home"]} component={Home} />
-        <Route exact path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
+        <Route exact path={["/", "/home"]} component={Home} />
+        <Route path={"/projects"} component={Projects} />
         <Route component={NoMatch} />
       </Switch>
 
