@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Nav from "./components/Nav";
 import Home from "./components/Home";
+import bg from "./components/bgVideo.mp4";
 // import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
 // import NoMatch from "./components/NoMatch";
@@ -10,8 +11,14 @@ import Home from "./components/Home";
 function App() {
   return (
     <Router>
+      
       {/* Navigation Bar */}
       <Nav />
+
+      {/* Background video */}
+      <video autoPlay muted loop id="bgVideo">
+        <source src={bg} type="video/mp4" />
+      </video>
 
       <Switch>
         <Route exact path={["/", "/home"]} component={Home} />
