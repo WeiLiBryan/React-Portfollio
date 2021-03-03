@@ -19,7 +19,7 @@ Application is an updated portfolio site made in React
 
 ## Deployed Link
 
-[Link](https://weilibryan.github.io/Clicky/)
+[Link](https://weilibryan.github.io/React-Portfollio/)
 
 ## Prerequisites
 
