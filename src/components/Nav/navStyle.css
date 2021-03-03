@@ -1,7 +1,17 @@
 i {
-    margin-left: 30px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 a {
-    color: black;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social {
+    font-size: 20px;
 }

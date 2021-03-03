@@ -11,13 +11,13 @@ function Nav() {
                 <div className="social">
                     
                     {/* Resume */}
-                    <a href="https://drive.google.com/file/d/1us60yQRFY5PqgJMXwf9scMxRK7DQh_sM/view?usp=sharing"><i class="fas fa-file"></i></a>
+                    <a href="https://drive.google.com/file/d/1us60yQRFY5PqgJMXwf9scMxRK7DQh_sM/view?usp=sharing"><i className="fas fa-file"></i></a>
 
                     {/* Github */}
-                    <a href="https://github.com/WeiLiBryan"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/WeiLiBryan"><i className="fab fa-github"></i></a>
 
                     {/* LinkedIn */}
-                    <a href="https://www.linkedin.com/in/william-bryan-72730019a/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/william-bryan-72730019a/"><i className="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </nav>
