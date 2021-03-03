@@ -1,7 +1,6 @@
 import "./homeStyle.css";
 import React from "react";
 
-
 function Home() {
 
     return (
@@ -20,7 +19,7 @@ function Home() {
                     <i class="fas fa-file"> Resume</i>
                 </a>
 
-                <a role="button" href="/" className="btn btn-primary  mainBtns">
+                <a role="button" href="/projects" className="btn btn-primary  mainBtns">
                     <i class="fas fa-project-diagram"> Projects</i>
                 </a>
 

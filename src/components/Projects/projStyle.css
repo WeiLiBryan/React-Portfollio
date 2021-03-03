@@ -1,0 +1,32 @@
+.card {
+    width: 20rem;
+    color: black;
+    display: inline-block;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.proj-content {
+    position: relative;
+    top: 15%;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.github {
+    background-color: #333333;
+    margin: 10px !important;
+}
+
+h6 {
+    color:white;
+}
