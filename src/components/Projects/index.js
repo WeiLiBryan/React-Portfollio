@@ -47,7 +47,7 @@ function Projects() {
             </div>
 
             <div className="card">
-                <img src={process.env.PUBLIC_URL + "/assets/Unwind.png"} className="card-img-top" alt="unwind" />
+                <img src={process.env.PUBLIC_URL + "/assets/Unwind.PNG"} className="card-img-top" alt="unwind" />
                 <div className="card-body">
                     <h6>Unwind: Relaxation App</h6>
                     <a className="btn btn-primary github" href="https://github.com/WeiLiBryan/Unwind" role="button">
