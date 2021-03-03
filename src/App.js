@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       {/* Navigation Bar */}
       <Nav />
 
@@ -26,7 +26,7 @@ function App() {
       </Switch>
 
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
