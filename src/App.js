@@ -5,8 +5,8 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import bg from "./components/bgVideo.mp4";
-// import Contact from "./components/Contact";
 import NoMatch from "./components/NoMatch";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,9 +23,10 @@ function App() {
       <Switch>
         <Route exact path={["/", "/home"]} component={Home} />
         <Route exact path={"/projects"} component={Projects} />
-        {/* <Route exact path={"/Contact"} component={Contact} /> */}
         <Route component={ NoMatch } />
       </Switch>
+
+    <Footer />
     </Router>
   );
 }

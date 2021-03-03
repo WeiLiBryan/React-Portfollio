@@ -22,11 +22,6 @@ function Home() {
                 <a role="button" href="/projects" className="btn btn-primary  mainBtns">
                     <i class="fas fa-project-diagram"> Projects</i>
                 </a>
-
-                <br />
-                <a role="button" href="/" className="btn btn-primary  mainBtns">
-                    <i class="fas fa-address-book"> Contact</i>
-                </a>
             </div>
         </div>
     );
